@@ -13,9 +13,100 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <title>Devchallenges | Interior Consultant</title>
   </head>
   <body>
+    <!-- header -->
+    <header class="main-header container">
+      <a class="main-header__logo" href="index.html">This interior</a>
+
+      <nav class="main-nav" id="main-nav">
+        <button
+          class="hamburger-button hamburger hamburger--vortex"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <ul class="main-menu" id="main-menu">
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link font-weight-bold">Home</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Collection</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">About</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header -->
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-content container">
+        <div class="hero-content__texts">
+          <h1 class="hero-content__title">Modern interior</h1>
+          <p class="hero-content__paragraph">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco -services.
+          </p>
+          <a href="#" class="cta-button">
+            Read more
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
+        <div class="hero-content__banner">
+          <img
+            src="assets/images/photo1.png"
+            alt="#"
+            class="hero-content__img"
+          />
+          <!-- card -->
+          <div class="card">
+            <div class="card__header">
+              <div class="avatar">
+                <figure class="avatar__figure">
+                  <img
+                    src="assets/images/photo2.png"
+                    alt="avatar-img"
+                    class="avatar__img"
+                  />
+                  <figcaption class="avatar__description">
+                    Aliza Webber
+                    <br />
+                    <span>Interior designer</span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">
+                Designed in 2020 by <br />
+                Aliza Webber
+              </h2>
+            </div>
+          </div>
+          <!-- card -->
+        </div>
+      </div>
+    </section>
+    <!-- hero -->
+    <!-- footer -->
+
+    <div class="divisor"></div>
+    <footer class="main-footer">
+      <small class="main-footer__text">
+        Fabricio Medina @ DevChallenges.io</small
+      >
+    </footer>
+    <!-- footer -->
     <script src="js/index.js" type="module"></script>
   </body>
 </html>
