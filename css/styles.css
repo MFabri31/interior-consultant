@@ -104,6 +104,30 @@ a {
   transform: translateY(0);
 }
 
+@media screen and (min-width: 768px) {
+  .main-header {
+    padding: 1em 0;
+  }
+
+  .main-nav {
+    width: 35rem;
+    display: block;
+    background-color: var(--bg-dark);
+  }
+
+  .main-menu {
+    position: static;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(0);
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+}
 /* -------------------
         HERO
 ---------------------*/
@@ -141,6 +165,25 @@ a {
 
 .hero-content__banner {
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+  }
+
+  .hero-content__texts,
+  .hero-content__banner {
+    width: 50%;
+  }
+
+  .hero-content__title {
+    font-size: 2.5rem;
+  }
+  .hero-content__paragraph {
+    width: 20rem;
+    font-size: 1.3rem;
+  }
 }
 
 /* -------------------
@@ -181,6 +224,15 @@ a {
 .avatar__img {
   max-width: 50px;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 57%;
+    left: 15rem;
+    bottom: 4rem;
+    box-shadow: none;
+  }
 }
 
 /* -------------------
